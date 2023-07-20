@@ -1,4 +1,0 @@
-git is a version control system
-git is free sofeware
-k
-hello world
