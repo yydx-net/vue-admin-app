@@ -9,7 +9,6 @@
       </a-menu>
     </a-layout-header>
     <a-layout-content style="padding: 0 50px">
-      <BreadCrumb></BreadCrumb>
       <a-layout style="padding: 24px 0; background: #fff">
         <a-layout-sider width="200" style="background: #fff">
           <a-menu v-model:selectedKeys="selectedKeys2" v-model:openKeys="openKeys" mode="inline" style="height: 100%">
@@ -63,17 +62,16 @@
   </a-layout>
 </template>
 <script>
+
 import { RouterView } from 'vue-router'
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons-vue'
 import { defineComponent, ref } from 'vue'
-import BreadCrumb from './BreadCrumb.vue'
 export default defineComponent({
   components: {
     UserOutlined,
     LaptopOutlined,
     NotificationOutlined,
     RouterView,
-    BreadCrumb
 },
   setup () {
     return {
@@ -96,12 +94,10 @@ export default defineComponent({
   margin: 16px 24px 16px 0;
   background: rgba(255, 255, 255, 0.3);
 }
-
 .ant-row-rtl #components-layout-demo-top-side .logo {
   float: right;
   margin: 16px 0 16px 24px;
 }
-
 .site-layout-background {
   background: #fff;
 }</style>
