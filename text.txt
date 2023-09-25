@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 =======
 Hello world ABC
-this is the second line AND simple
+this is the second line and Simple
 
 
 >>>>>>> dev
