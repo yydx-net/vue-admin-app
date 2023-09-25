@@ -1,1 +1,8 @@
+<<<<<<< HEAD
+=======
+Hello world ABC
+this is the second line AND simple
+
+
+>>>>>>> dev
 this is master
