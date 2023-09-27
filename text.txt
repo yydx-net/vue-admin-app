@@ -4,5 +4,9 @@ ABC
 c
 c
 c
+<<<<<<< HEAD
 c
+=======
+test
+>>>>>>> test
 this is master
